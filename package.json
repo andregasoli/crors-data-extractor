@@ -1,0 +1,20 @@
+{
+  "name": "crors-data-extractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Cunha <danielcunha54@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/extractor",
+    "dev": "nodemon src/extractor"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
